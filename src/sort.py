@@ -21,12 +21,12 @@ def PhotoSort_lite():
     for i in range(len(file_name_list)):
         file_pass = config_data["update_folder"] + file_name_list[i]
         if is_include(file_name_list[i]) != False:
-            print("拡張子 :" + is_include(file_name_list[i]))
+            print("リネーム後のファイル名 :" + file_name_list[i])
             took_time = os.stat(file_pass).st_ctime
             os.rename(file_pass, config_data["update_folder"] + str(took_time).replace(".", "") + "." + is_include(file_name_list[i]))
 
     # 画像、動画ファイルの移動
 
-    return "Finish"
+    return "all OK"
 
 print(PhotoSort_lite())
