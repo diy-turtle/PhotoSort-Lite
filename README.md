@@ -39,9 +39,9 @@ config.jsonファイルは、PhotoSort-Liteの設定を保存するファイル�
 | キー | 内容 | 必須 | 規定値 |
 | --- | --- | --- | --- |
 | version | config.json が作成されたときの PhotoSort-Lite のバージョン | はい | 1.0.0 |
-| type | 軽量版かどうかを表します。| はい | lite |
-| folder | PhotoSort-Lite でリネームする写真があるフォルダを表します。 | はい | ./user_content/upload/ |
-| extensions | リネームするファイルの拡張子を保存します。 | はい | jpg, gif, png, mov |
+| type | プログラムのタイプ | はい | lite |
+| folder | PhotoSort-Lite でリネームする写真があるフォルダ | はい | ./user_content/upload/ |
+| extensions | リネームするファイルの拡張子 | はい | jpg, gif, png, mov |
 
 ### 3. プログラムの実行
 
