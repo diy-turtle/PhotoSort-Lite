@@ -25,8 +25,5 @@ def PhotoSort_lite():
             took_time = os.stat(file_pass).st_ctime
             os.rename(file_pass, config_data["folder"] + str(took_time).replace(".", "") + "." + is_include(file_name_list[i]))
 
-    # 画像、動画ファイルの移動
-
-    return "all OK"
-
-print(PhotoSort_lite())
+    print("完了しました")
+    return "finish"
