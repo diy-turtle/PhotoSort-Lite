@@ -11,7 +11,7 @@
 
 ## 使い方
 ### 1. **ファイルのダウンロードまたはクローン**
-以下のいずれかの方法で、バースデーカードのファイルを自分のPCにダウンロードしてください。
+以下のいずれかの方法で、PhotoSort-Lite のプログラムを自分のPCにダウンロードしてください。
     - ダウンロード
         - **https://github.com/diy-turtle/PhotoSort-Lite.git** から最新版のZIPファイルをダウンロードし、解凍します。
     - クローン
@@ -38,7 +38,7 @@ config.jsonファイルは、PhotoSort-Liteの設定を保存するファイル�
 #### config.jsonの詳細
 | キー | 内容 | 必須 | 規定値 |
 | --- | --- | --- | --- |
-| version | config.json が作成されたときの PhotoSort-Lite のバージョン | はい |　1.0.0 |
+| version | config.json が作成されたときの PhotoSort-Lite のバージョン | はい | 1.0.0 |
 | type | 軽量版かどうかを表します。| はい | lite |
 | folder | PhotoSort-Lite でリネームする写真があるフォルダを表します。 | はい | ./user_content/upload/ |
 | extensions | リネームするファイルの拡張子を保存します。 | はい | jpg, gif, png, mov |
