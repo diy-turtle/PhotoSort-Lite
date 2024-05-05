@@ -23,7 +23,7 @@ git clone https://github.com/diy-turtle/PhotoSort-Lite
 
 ### 2. **config.json ファイルの作成**
 
-config.jsonファイルは、PhotoSort-Liteの設定を保存するファイルです。以下の内容を参考に、config.jsonファイルを作成してください。
+config.jsonファイルは、PhotoSort-Liteの設定を保存するファイルです。以下の内容を参考に、config.jsonファイルを作成してください。ファイルは、 ./user_content/ に保存してください。
 
 #### config.json
 ```json
