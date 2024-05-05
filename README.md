@@ -12,10 +12,10 @@
 ## 使い方
 ### 1. **ファイルのダウンロードまたはクローン**
 以下のいずれかの方法で、PhotoSort-Lite のプログラムを自分のPCにダウンロードしてください。
-    - ダウンロード
-        - **https://github.com/diy-turtle/PhotoSort-Lite.git** から最新版のZIPファイルをダウンロードし、解凍します。
-    - クローン
-        - ターミナルまたはGit GUIツールを使って、以下のコマンドを実行します。
+- ダウンロード
+    - **https://github.com/diy-turtle/PhotoSort-Lite.git** から最新版のZIPファイルをダウンロードし、解凍します。
+- クローン
+    - ターミナルまたはGit GUIツールを使って、以下のコマンドを実行します。
 ```
 git clone https://github.com/diy-turtle/PhotoSort-Lite
 ```
@@ -44,4 +44,15 @@ config.jsonファイルは、PhotoSort-Liteの設定を保存するファイル�
 | extensions | リネームするファイルの拡張子 | はい | jpg, gif, png, mov |
 
 ### 3. プログラムの実行
+./src/main.py を実行してください。
+```
+python main.py
+```
+
+> [!NOTE]
+> #### プログラムの役割
+> | ファイル名 | 役割 |
+> | --- | --- |
+> | ./src/main.py | 他のプログラムの実行や GUI 画面の作成 |
+> | ./src/sort.py | 写真を並び替え |
 
