@@ -3,7 +3,7 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/diy-turtle/PhotoSort-Lite)
 ![GitHub Release](https://img.shields.io/github/v/release/diy-turtle/PhotoSort-Lite)
 
-軽量版写真、動画リネームソフト
+軽量版写真・動画リネームソフト
 
 ## 主な機能
 - 軽量で高速な動作
