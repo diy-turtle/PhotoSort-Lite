@@ -59,16 +59,20 @@ python main.py
 
 ## 使用したライブラリ
 ### メインプログラム (main.py)
+- json (https://jsons.readthedocs.io/) (Apache License 2.0)
 
-    json (https://jsons.readthedocs.io/) (Apache License 2.0)
-        JSON データの読み書き
-    tkinter (https://docs.python.org/3/library/tkinter.html) (Python Software Foundation License)
-        Tkinter GUI ツールキット
-    sort (自作モジュール)
+    JSON データの読み書き
+- tkinter (https://docs.python.org/3/library/tkinter.html) (Python Software Foundation License)
+
+    Tkinter GUI ツールキット
+- sort (自作モジュール)
+
 
 ### サブモジュール (sort.py)
+- os (https://docs.python.org/3/library/os.html) (標準ライブラリ)
 
-    os (https://docs.python.org/3/library/os.html) (標準ライブラリ)
-        オペレーティングシステムとのやり取り
-    json (https://jsons.readthedocs.io/) (Apache License 2.0)
-        JSON データの読み書き
+    オペレーティングシステムとのやり取り
+  
+- json (https://jsons.readthedocs.io/) (Apache License 2.0)
+
+    JSON データの読み書き
