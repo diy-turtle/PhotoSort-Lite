@@ -56,3 +56,19 @@ python main.py
 > | ./src/main.py | 他のプログラムの実行や GUI 画面の作成 |
 > | ./src/sort.py | 写真を並び替え |
 
+
+## 使用したライブラリ
+### メインプログラム (main.py)
+
+    json (https://jsons.readthedocs.io/) (Apache License 2.0)
+        JSON データの読み書き
+    tkinter (https://docs.python.org/3/library/tkinter.html) (Python Software Foundation License)
+        Tkinter GUI ツールキット
+    sort (自作モジュール)
+
+### サブモジュール (sort.py)
+
+    os (https://docs.python.org/3/library/os.html) (標準ライブラリ)
+        オペレーティングシステムとのやり取り
+    json (https://jsons.readthedocs.io/) (Apache License 2.0)
+        JSON データの読み書き
