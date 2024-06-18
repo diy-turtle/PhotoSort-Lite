@@ -4,6 +4,7 @@
 ![GitHub Release](https://img.shields.io/github/v/release/diy-turtle/PhotoSort-Lite)
 
 軽量版写真・動画リネームソフト
+
 ![ver1_0_0 - スクリーンショット](https://github.com/diy-turtle/PhotoSort-Lite/assets/163115290/fa63b1c4-4920-43a0-b2f0-bd5029c165c9)
 
 ## 主な機能
