@@ -7,9 +7,9 @@
 
 ![ver1_0_0 - スクリーンショット](https://github.com/diy-turtle/PhotoSort-Lite/assets/163115290/fa63b1c4-4920-43a0-b2f0-bd5029c165c9)
 
-## 主な機能
+## 主な特徴
 - 軽量で高速な動作
-- 撮影日時によるリネーム (Unix 時間)
+- 作成日時によるリネーム (Unix 時間)
 
 ## 使い方
 ### 1. **ファイルのダウンロードまたはクローン**
@@ -30,7 +30,7 @@ config.jsonファイルは、PhotoSort-Liteの設定を保存するファイル�
 #### config.json
 ```json
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "type": "lite",
     "folder": "./user_content/upload/",
     "extensions": ["jpg", "gif", "png", "mov"]
@@ -40,7 +40,7 @@ config.jsonファイルは、PhotoSort-Liteの設定を保存するファイル�
 #### config.jsonの詳細
 | キー | 内容 | 必須 | 規定値 |
 | --- | --- | --- | --- |
-| version | config.json が作成されたときの PhotoSort-Lite のバージョン | はい | 1.0.0 |
+| version | config.json が作成されたときの PhotoSort-Lite のバージョン | はい | 1.0.1 |
 | type | プログラムのタイプ | はい | lite |
 | folder | PhotoSort-Lite でリネームする写真があるフォルダ | はい | ./user_content/upload/ |
 | extensions | リネームするファイルの拡張子 | はい | jpg, gif, png, mov |
@@ -67,7 +67,6 @@ python main.py
 - tkinter (https://docs.python.org/3/library/tkinter.html) (Python Software Foundation License)
 
     Tkinter GUI ツールキット
-- sort (自作モジュール)
 
 
 ### サブモジュール (sort.py)
