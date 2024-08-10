@@ -8,7 +8,7 @@ with open("../user_content/config.json") as config_json:
 
 # ウィンドウの作成
 root = tk.Tk()
-root.title("PhotoSort-Lite (ver1.0.0)")
+root.title("PhotoSort-Lite (ver1.0.1)")
 
 # フォルダ名
 folder = tk.Label(root, text="フォルダ :" + config_data["folder"])
