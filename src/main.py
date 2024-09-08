@@ -7,7 +7,7 @@ with open("../user_content/config.json") as config_json:
     config_data = json.load(config_json)
 
 # 使用できるバージョン
-can_use_version = ["1.0.0", "1.0.1", "1.1.0"]
+can_use_version = ["1.0.0", "1.0.1"]
 
 # ウィンドウの作成
 root = tk.Tk()
