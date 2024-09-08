@@ -5,7 +5,7 @@
 
 軽量版写真・動画リネームソフト
 
-![ver1_0_0 - スクリーンショット](https://github.com/diy-turtle/PhotoSort-Lite/assets/163115290/fa63b1c4-4920-43a0-b2f0-bd5029c165c9)
+![ver1_0_1 - スクリーンショット](https://github.com/user-attachments/assets/33a6de66-b3b6-4f3b-bc3d-54c65543aa44)
 
 ## 主な特徴
 - 軽量で高速な動作
