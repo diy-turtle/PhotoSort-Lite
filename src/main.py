@@ -6,9 +6,19 @@ import sort
 with open("../user_content/config.json") as config_json:
     config_data = json.load(config_json)
 
+# 使用できるバージョン
+can_use_version = ["1.0.0", "1.0.1"]
+
 # ウィンドウの作成
 root = tk.Tk()
-root.title("PhotoSort-Lite (ver1.0.0)")
+title = ""
+if config_data["version"] == "1.0.1":
+    title = "PhotoSort-Lite (ver1.0.1)"
+elif config_data["version"] in can_use_version:
+    title = "PhotoSort-Lite (互換性モード)"
+else:
+    title = "PhotoSort-Lite (こちらのバージョンは互換性がありません。期待する動作が得られない可能性があります。)"
+root.title(title)
 
 # フォルダ名
 folder = tk.Label(root, text="フォルダ :" + config_data["folder"])
